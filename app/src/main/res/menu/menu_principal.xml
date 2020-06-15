@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/cadTurmas"
+        android:icon="@android:drawable/ic_input_add"
+        android:onClick="cadTurmas"
+        android:title="@string/menu_cadturma"
+        app:showAsAction="collapseActionView" />
+    <item
+        android:icon="@android:drawable/ic_input_add"
+        android:onClick="cadastrar"
+        android:title="@string/menu_cadaluno"
+        app:showAsAction="collapseActionView" />
+    <item
+        android:id="@+id/app_bar_search"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="@string/menu_pesquisa"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:onClick="listagem"
+        android:title="@string/menu_listturmas"
+        app:showAsAction="collapseActionView" />
+</menu>

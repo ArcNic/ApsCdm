@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">APS Alunos</string>
+    <string name="button_cadturma">Save Class</string>
+    <string name="text_cadturma">New Class</string>
+    <string name="text_cadsala">Room</string>
+    <string name="text_cadaluno">Name</string>
+    <string name="text_cadcpf">CPF</string>
+    <string name="text_cadtelefone">Telephone</string>
+    <string name="btn_salvaraluno">Save Student</string>
+    <string name="menu_cadturma">Register Class</string>
+    <string name="menu_cadaluno">Register Student</string>
+    <string name="menu_listturmas">Class List</string>
+    <string name="menu_pesquisa">Search Student</string>
+</resources>
